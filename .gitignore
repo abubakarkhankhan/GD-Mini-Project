@@ -1,18 +1,33 @@
+
+# Unity generated folders
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
 [Bb]uild/
 [Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
 [Mm]emoryCaptures/
+[Rr]ecordings/
+ExportedObj/
+.utmp/
+
+# IDE files
 .vs/
 .idea/
 .gradle/
+.consulo/
+[Aa]ssets/Plugins/Editor/JetBrains*
 
+# Generated project files
 *.csproj
+*.unityproj
 *.sln
+*.slnx
+*.suo
 *.user
+*.userprefs
+*.tmp
 *.pidb
 *.booproj
 *.svd
@@ -20,6 +35,36 @@
 *.mdb
 *.opendb
 *.VC.db
+*.DotSettings.user
 
+# Build files
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Blender
+*.blend1
+*.blend1.meta
+
+# Unity crash files
+sysinfo.txt
+mono_crash.*
+crashlytics-build.properties
+
+# Unity generated metadata
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Addressables
+/ServerData
+/Assets/StreamingAssets/aa*
+/Assets/AddressableAssetsData/link.xml*
+/Assets/Addressables_Temp*
+
+# Other
 .DS_Store
 Thumbs.db
+*.log
