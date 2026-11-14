@@ -1,0 +1,105 @@
+CREDITS - Mini Project 1: The Enchanted Forest Shrine
+CSE-411 Introduction to Game Development
+=====================================================================
+
+All third-party assets below were imported as individual assets only.
+No demo scene from any pack was used. The terrain, layout, shrine,
+ruins, lighting and scripts were built by me for this project.
+
+---------------------------------------------------------------------
+3D MODELS
+---------------------------------------------------------------------
+
+1) Stylized Nature MegaKit [Standard]
+   Used for:  all forest trees (painted with the Terrain tree tool), bushes, ferns,
+              plants, terrain grass meshes
+   Author:    Quaternius
+   Source:    quaternius.com
+   Link:      https://quaternius.com
+   Licence:   CC0 1.0 Universal (Public Domain Dedication)
+   Folder:    Assets/Stylized Nature MegaKit[Standard]
+
+2) Fantasy Props MegaKit [Standard]
+   Used for:  imported into the project but NOT used in the final scene
+   Author:    Quaternius
+   Source:    quaternius.com
+   Link:      https://quaternius.com
+   Licence:   CC0 1.0 Universal (Public Domain Dedication)
+   Folder:    Assets/Project Assets/Fantasy Props MegaKit[Standard]
+
+3) Nature Kit (2.1)
+   Used for:  path rocks, logs, mushrooms, glowing mushrooms, shrine stone details
+   Author:    Kenney
+   Source:    kenney.nl
+   Link:      https://kenney.nl/assets/nature-kit
+   Licence:   Creative Commons Zero (CC0)
+   Folder:    Assets/Project Assets/kenney_nature-kit
+
+4) Graveyard Kit (5.0)
+   Used for:  ruins (walls, pillars, crypt, gravestones, lanterns), shrine arch, walls and pillars
+   Author:    Kenney
+   Source:    kenney.nl
+   Link:      https://kenney.nl/assets/graveyard-kit
+   Licence:   Creative Commons Zero (CC0)
+   Folder:    Assets/Project Assets/kenney_graveyard-kit_5.0
+
+---------------------------------------------------------------------
+TEXTURES
+---------------------------------------------------------------------
+
+5) Gravelly Sand (Layer_ForestPath terrain layer)
+   Author:    Dario Barresi
+   Source:    Poly Haven
+   Link:      https://polyhaven.com/a/gravelly_sand
+   Licence:   CC0
+
+6) Gray Rocks (Layer_MountainRock terrain layer)
+   Author:    Dimitrios Savva
+   Source:    Poly Haven
+   Link:      https://polyhaven.com/a/gray_rocks
+   Licence:   CC0
+
+7) Rocky Terrain 02 (imported but NOT used in the final scene)
+   Author:    Amal Kumar
+   Source:    Poly Haven
+   Link:      https://polyhaven.com/a/rocky_terrain_02
+   Licence:   CC0
+
+8) Grass Ground (imported but NOT used in the final scene)
+   Author:    Charlotte Baglioni
+   Source:    Poly Haven
+   Link:      https://polyhaven.com/a/grass_ground
+   Licence:   CC0
+
+9) Outdoor Ground Textures (Layer_MossGrass and Layer_DarkSoil terrain layers)
+   Author:    A dog's life software
+   Source:    Unity Asset Store (free)
+   Link:      https://assetstore.unity.com/packages/2d/textures-materials/floors/outdoor-ground-textures-12555
+   Licence:   Standard Unity Asset Store EULA
+   Folder:    Assets/ADG_Textures
+
+---------------------------------------------------------------------
+SKYBOX
+---------------------------------------------------------------------
+
+10) Skybox Series Free (DarkStorm4K HDRI used in ForestSky.mat)
+   Author:    Avionx
+   Source:    Unity Asset Store (free)
+   Link:      https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633
+   Licence:   Standard Unity Asset Store EULA
+   Folder:    Assets/SkySeries Freebie
+
+---------------------------------------------------------------------
+CREATED / MODIFIED BY ME
+---------------------------------------------------------------------
+- Terrain sculpting, terrain layer setup and texture painting
+- Scene layout: forest entrance path, ancient ruins, main shrine clearing
+- Shrine and ruins arrangement, rune circle, light beam
+- Crystal mesh (Assets/Models/Crystal.asset) made by me for the glowing crystals
+- Terrain tree prefabs (Assets/Prefabs/TerrainTrees) with upright baked meshes
+  (Assets/Models/TerrainTrees) made from the Quaternius models for the Terrain tree tool
+- Custom / modified materials in Assets/Materials (Shrine, Terrain, Foliage, Grass)
+  including emissive crystal and rune materials, ForestSky skybox material
+- Lighting setup: green-tinted directional light, fog, point/spot shrine lights
+- C# scripts in Assets/Scripts:
+  ExplorerController, CameraViewpointSwitcher, FloatingCrystal, LightFlicker
